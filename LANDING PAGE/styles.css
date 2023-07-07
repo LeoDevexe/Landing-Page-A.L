@@ -1,0 +1,155 @@
+/* Estilos comunes a todas las pantallas */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.web{
+    background-color: turquoise;
+    padding: 15px;
+    max-width: 100%;
+    height: auto;
+}
+.movil{
+    background-color: #2196F3;
+    padding: 15px;
+    max-width: 100%;
+    height: auto;
+}
+.landing{
+    background-color: aliceblue;
+    padding: 65px;
+    max-width: 100%;
+    height: auto;
+}
+
+.servicios h1{
+    display: grid;
+    text-align: center;
+    align-content: center;
+    align-content: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+
+ @media screen and (max-width: 600px) {
+
+ 	/* Ajustar el tamaño del encabezado */
+ 	header {
+ 		padding: 10px;
+ 	}
+
+ 	/* Ajustar el tamaño de la fuente del encabezado */
+ 	header h1 {
+ 		font-size: 24px;
+ 		margin-bottom: 10px;
+ 	}
+
+ 	/*/* Ajustar el tamaño de la fuente de la navegación */
+ 	nav a {
+ 		font-size: 14px;
+ 	}
+
+ 	/* Ajustar el ancho del contenido principal */
+ 	main {
+ 		margin: 10px;
+ 	}
+
+ 	/* Ajustar el tamaño de la fuente del contenido */
+ 	#contenido h1 {
+ 		font-size: 24px;
+ 	}
+
+ 	/* Ajustar el tamaño de la fuente del botón */
+ 	#registro {
+ 		font-size: 14px;
+ 	}
+
+ 	/* Ajustar el tamaño de la fuente del título de servicios */
+ 	* .servicios h1 {
+ 		font-size: 24px;
+ 		margin-bottom: 10px;
+ 	}
+
+ 	/* Ajustar el tamaño de la fuente de los títulos de servicios */
+ 	.web h2,
+ 	.movil h2,
+ 	.landing h2 {
+ 		font-size: 20px;
+ 	}
+
+ 	/* Ajustar el tamaño de las imágenes de los servicios */
+ 	.web img,
+ 	.movil img,
+ 	.landing img {
+ 		max-width: 100%;
+ 		height: auto;
+ 	}
+
+ 	/* Ajustar el tamaño de la fuente del pie de página */
+ 	footer p {
+ 		font-size: 12px;
+ 	}
+}
